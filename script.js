@@ -64,7 +64,7 @@
     sections.forEach((s) => obs.observe(s));
   }
 
-  // ---------------------------------------------
+// ---------------------------------------------
 // Hero Carousel
 // ---------------------------------------------
 (function () {
@@ -254,7 +254,12 @@ const projectData = {
       { label: "Video", url: "https://www.youtube.com/watch?v=N-GtDz9iRWI" }
     ],
     images: [
-      { src: "assets/dl-classification/dl-1.png", alt: "Comments Distribution", caption: "Comments Distribution" },
+      { src: "assets/gizmo/gizmo-1.png", alt: "Home", caption: "Home" },
+      { src: "assets/gizmo/gizmo-2.png", alt: "Product Detail", caption: "Product Detail" },
+      { src: "assets/gizmo/gizmo-3.png", alt: "Product Rating & Review", caption: "Product Rating & Review" },
+      { src: "assets/gizmo/gizmo-4.png", alt: "Order Confirmation", caption: "Order Confirmation" },
+      { src: "assets/gizmo/gizmo-5.png", alt: "Chatbot", caption: "Chatbot" },
+      { src: "assets/gizmo/gizmo-6.png", alt: "Chatbot", caption: "Letter of Aggrement" },
     ]
   },
 
@@ -273,6 +278,11 @@ const projectData = {
       { label: "Food Security and Nutritional Consumption Dashboard", url: "https://public.tableau.com/app/profile/cristiano.ronaldo8148/viz/FoodSecurityandNutritionalConsumption/DashboardKetahananPangandanKonsumsiGizi" },
       { label: "Economic and Social Welfare Dashboard", url: "https://public.tableau.com/app/profile/cristiano.ronaldo8148/viz/EconomicandSocialWelfare/DashboardEkonomidanKesejahteraanSosial" },
       { label: "Health Equity Dashboard", url: "https://public.tableau.com/app/profile/cristiano.ronaldo8148/viz/HealthEquity_17621819364650/DashboardKesehatan" }
+    ],
+    images: [
+      { src: "assets/dashboard/dashboard-1.png", alt: "Economic and Social Welfare", caption: "Economic and Social Welfare" },
+      { src: "assets/dashboard/dashboard-2.png", alt: "Food Security and Nutritional Consumption", caption: "Food Security and Nutritional Consumption" },
+      { src: "assets/dashboard/dashboard-3.png", alt: "Health Equity", caption: "Health Equity" },
     ]
   },
 
@@ -310,7 +320,14 @@ const projectData = {
       "Implemented problem reporting and service management modules to support tenant requests."
     ],
     links: [
-      { label: "Source Code", url: "https://github.com/kruzzzzz/MyKosHub" }
+      { label: "Source Code", url: "https://github.com/kruzzzzz/MyKosHub" },
+      { label: "Video", url: "https://drive.google.com/file/d/11K3BAi6Hkq8fEi6Z6f25zcCdGZF3PhtT/view?usp=sharing" }
+    ],
+    images: [
+      { src: "assets/mykoshub/mykoshub-1.png", alt: "Owner Homepage", caption: "Owner Homepage" },
+      { src: "assets/mykoshub/mykoshub-2.png", alt: "Payment Management", caption: "Payment Management" },
+      { src: "assets/mykoshub/mykoshub-3.png", alt: "Tenant Homepage", caption: "Tenant Homepage" },
+      { src: "assets/mykoshub/mykoshub-4.png", alt: "Admin Homepage", caption: "Admin Homepage" },
     ]
   },
 
@@ -328,6 +345,12 @@ const projectData = {
     links: [
       { label: "Website", url: "https://oracleapex.com/ords/r/crisdb/reservego/login" },
       { label: "Video", url: "https://www.youtube.com/watch?v=edyhoGDoMTs" }
+    ],
+    images: [
+      { src: "assets/reservego/reservego-1.png", alt: "Edit Profile", caption: "Edit Profile" },
+      { src: "assets/reservego/reservego-2.png", alt: "History", caption: "History" },
+      { src: "assets/reservego/reservego-3.png", alt: "Reservation History Detail", caption: "Reservation History Detail" },
+      { src: "assets/reservego/reservego-4.png", alt: "Admin Homepage", caption: "Admin Homepage" },
     ]
   },
 
@@ -343,6 +366,12 @@ const projectData = {
     ],
     links: [
       { label: "Source Code", url: "https://colab.research.google.com/drive/1ZzeN4LAWVrq8b-TTn9ODB2ksDtD3qHrz?usp=sharing" }
+    ],
+    images: [
+      { src: "assets/democracy/democracy-1.png", alt: "KNN Classification Report", caption: "KNN Classification Report" },
+      { src: "assets/democracy/democracy-2.png", alt: "KNN Confusion Matrix", caption: "KNN Confusion Matrix" },
+      { src: "assets/democracy/democracy-3.png", alt: "Holt's Exponential Evaluation", caption: "Holt's Exponential Evaluation" },
+      { src: "assets/democracy/democracy-4.png", alt: "Democracy Prediction Results", caption: "Democracy Prediction Results" },
     ]
   },
 
@@ -358,6 +387,19 @@ const projectData = {
     ],
     links: [
       {  }
+    ],
+    images: [
+      { src: "assets/furyel/furyel-1.png", alt: "Produck Restock's ETL", caption: "Produck Restock's ETL" },
+      { src: "assets/furyel/furyel-2.png", alt: "Low Stock Product", caption: "Low Stock Product" },
+      { src: "assets/furyel/furyel-3.png", alt: "Available Stock Product", caption: "Available Stock Product" },
+      { src: "assets/furyel/furyel-4.png", alt: "Overstock Product", caption: "Overstock Product" },
+      { src: "assets/furyel/furyel-5.png", alt: "Category Performance's ETL", caption: "Category Performance's ETL" },
+      { src: "assets/furyel/furyel-6.png", alt: "Category Performance by Total Sold Product", caption: "Category Performance by Total Sold Product" },
+      { src: "assets/furyel/furyel-7.png", alt: "Category Performance by Total Sales Product", caption: "Category Performance by Total Sales Product" },
+      { src: "assets/furyel/furyel-8.png", alt: "City Performance's ETL", caption: "City Performance's ETL" },
+      { src: "assets/furyel/furyel-9.png", alt: "City Performance by Total Sold Product", caption: "City Performance by Total Sold Product" },
+      { src: "assets/furyel/furyel-10.png", alt: "City Performance by Total Sales Product", caption: "City Performance by Total Sales Product" },
+      { src: "assets/furyel/furyel-11.png", alt: "Star Schema Result", caption: "Star Schema Result" },
     ]
   },
 
@@ -375,6 +417,11 @@ const projectData = {
       { label: "Source Code", url: "https://github.com/kruzzzzz/LastBites" },
     ],
     images: [
+      { src: "assets/lastbites/lastbites-1.png", alt: "About Us Page", caption: "About Us Page" },
+      { src: "assets/lastbites/lastbites-2.png", alt: "Homepage", caption: "Homepage" },
+      { src: "assets/lastbites/lastbites-3.png", alt: "Store", caption: "Store" },
+      { src: "assets/lastbites/lastbites-4.png", alt: "Chat System", caption: "Chat System" },
+      { src: "assets/lastbites/lastbites-5.png", alt: "Seller Management Dashboard", caption: "Seller Management Dashboard" },
     ]
   },
 
@@ -393,7 +440,14 @@ const projectData = {
       { label: "Prototype", url: "https://www.figma.com/file/x2HoVgsSzQOM6wO6REwKna/Lovender" }
     ],
     images: [
-      { src: "assets/dl-classification/dl-1.png", alt: "Comments Distribution", caption: "Comments Distribution" },
+      { src: "assets/lovender/lovender-1.png", alt: "Homepage", caption: "Homepage" },
+      { src: "assets/lovender/lovender-2.png", alt: "Educational Video", caption: "Educational Video" },
+      { src: "assets/lovender/lovender-3.png", alt: "Lovender Services", caption: "Lovender Services" },
+      { src: "assets/lovender/lovender-4.png", alt: "Consultant Services", caption: "Consultant Services" },
+      { src: "assets/lovender/lovender-5.png", alt: "Consultant Chat", caption: "Consultant Chat" },
+      { src: "assets/lovender/lovender-6.png", alt: "Discussion Forum", caption: "Discussion Forum" },
+      { src: "assets/lovender/lovender-7.png", alt: "Discussion Chat", caption: "Discussion Chat" },
+      { src: "assets/lovender/lovender-8.png", alt: "Report History", caption: "Report History" },
     ]
   },
 
@@ -413,7 +467,10 @@ const projectData = {
       { label: "Video", url: "https://www.youtube.com/watch?v=v-GKeFyjzjc" }
     ],
     images: [
-      { src: "assets/dl-classification/dl-1.png", alt: "Comments Distribution", caption: "Comments Distribution" },
+      { src: "assets/sandang/sandang-1.png", alt: "Donors Homepage", caption: "Donors Homepage" },
+      { src: "assets/sandang/sandang-2.png", alt: "Chat", caption: "Chat" },
+      { src: "assets/sandang/sandang-3.png", alt: "Recipients Homepage", caption: "Recipients Homepage" },
+      { src: "assets/sandang/sandang-4.png", alt: "Order Confirmation", caption: "Order Confirmation" },
     ]
   },
 
@@ -433,7 +490,10 @@ const projectData = {
       { label: "Banner", url: "https://drive.google.com/file/d/1Oda9jEOUavged5cpv2INT4P7oWRXMvD2/view?usp=sharing" }
     ],
     images: [
-      { src: "assets/dl-classification/dl-1.png", alt: "Comments Distribution", caption: "Comments Distribution" },
+      { src: "assets/pkm/pkm-1.png", alt: "Team Photo", caption: "Team Photo" },
+      { src: "assets/pkm/pkm-2.png", alt: "Competition Presentation", caption: "Competition Presentation" },
+      { src: "assets/pkm/pkm-3.png", alt: "Educational Session", caption: "Educational Session" },
+      { src: "assets/pkm/pkm-4.png", alt: "Sketch", caption: "Sketch" },
     ]
   }
 };
@@ -500,10 +560,11 @@ function pmc_updateButtons() {
   const btnNext = pmc_root.querySelector("[data-carousel-next]");
 
   const slides = pmc_getSlides();
-  const last = slides.length - 1;
+  const multiple = slides.length > 1;
 
-  if (btnPrev) btnPrev.disabled = pmc_index <= 0;
-  if (btnNext) btnNext.disabled = pmc_index >= last;
+  // Keep controls enabled for looped navigation; disable only when there is a single slide.
+  if (btnPrev) btnPrev.disabled = !multiple;
+  if (btnNext) btnNext.disabled = !multiple;
 }
 
 function pmc_applyTransform() {
@@ -521,7 +582,8 @@ function pmc_goTo(i) {
   const slides = pmc_getSlides();
   if (!slides.length) return;
 
-  pmc_index = Math.max(0, Math.min(i, slides.length - 1));
+  const len = slides.length;
+  pmc_index = ((i % len) + len) % len; // wrap forward/backward
   pmc_applyTransform();
 }
 
