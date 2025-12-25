@@ -1070,7 +1070,7 @@ img {
   padding: 10px 12px;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.05);
+  background: linear-gradient(135deg, rgba(124, 92, 255, 0.9), rgba(57, 208, 255, 0.55));
   font-size: 13px;
   color: rgba(255, 255, 255, 0.86);
 }
@@ -1078,7 +1078,7 @@ img {
 .modal-link:hover {
   transform: translateY(-2px) scale(1.04);
   border-color: rgba(124, 92, 255, 0.35);
-  background: linear-gradient(180deg, rgba(124, 92, 255, 0.10), rgba(255, 255, 255, 0.04));
+  background: linear-gradient(135deg, rgba(124, 92, 255, 0.9), rgba(57, 208, 255, 0.55));
 }
 
 .modal-link:focus-visible {
